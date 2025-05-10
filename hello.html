@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Mittal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Harsh Mittal</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#qualifications">Qualifications</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="theme-toggle">Toggle Dark/Light Mode</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1 class="highlight-name">Harsh Mittal</h1>
+                <p class="animated-title"><span id="role-text"></span></p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="button primary-button">Contact</a>
+                    <a href="resume.pdf" class="button secondary-button" target="_blank">View Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="image-section" class="image-section landscape">
+            <div class="image-container">
+                <img src="photo1.jpg" alt="Harsh Mittal" class="profile-image">
+            </div>
+            <div class="image-details">
+                <h2>Harsh Mittal</h2>
+                <p>Software Developer</p>
+                <p>Passionate about building scalable web applications and elegant user experiences.</p>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="section-title">About Me</div>
+            <div class="about-card">
+                <p>Hello! I'm Harsh Mittal, a passionate and driven professional with a strong foundation in software development.</p>
+                <p>I have gained valuable experience working on building scalable web applications and contributing to agile development teams. My educational background includes a Bachelor of Technology in Computer Science from the Indian Institute of Technology, Delhi, where I developed a strong understanding of data structures, algorithms, and software engineering principles.</p>
+                <p>My goal is to leverage my skills and enthusiasm to contribute to innovative projects and continuously learn and grow in a dynamic environment. I am eager to connect with like-minded individuals and explore new opportunities.</p>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <div class="section-title">Experience</div>
+            <div class="experience-list">
+                <div class="experience-item">
+                    <h3>Software Engineer</h3>
+                    <p class="company">Google</p>
+                    <p class="duration">2022 - Present</p>
+                    <ul>
+                        <li>Developed and maintained key features for the company's flagship product.</li>
+                        <li>Collaborated with cross-functional teams to deliver high-quality software solutions.</li>
+                        <li>Implemented unit and integration tests to ensure code reliability.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h3>Junior Developer</h3>
+                    <p class="company">CodeCrafters Ltd.</p>
+                    <p class="duration">2020 - 2022</p>
+                    <ul>
+                        <li>Assisted senior developers in building and deploying web applications.</li>
+                        <li>Participated in code reviews and contributed to improving code quality.</li>
+                        <li>Learned and applied new technologies to enhance project development.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h3>AI Research Intern</h3>
+                    <p class="company">OpenAI</p>
+                    <p class="duration">2019 - 2020</p>
+                    <ul>
+                        <li>Researched transformer models and contributed to large language model improvements.</li>
+                        <li>Worked on NLP applications such as summarization, chatbots, and classification.</li>
+                        <li>Collaborated with engineers to translate research into practical prototypes.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="qualifications" class="qualifications">
+            <div class="section-title">Qualifications</div>
+            <div class="qualifications-list">
+                <div class="qualification-item">
+                    <h3>Bachelor of Technology in Computer Science</h3>
+                    <p class="institution">Indian Institute of Technology, Delhi</p>
+                    <p class="year">2016 - 2020</p>
+                </div>
+                <div class="qualification-item">
+                    <h3>Certified Web Developer</h3>
+                    <p class="institution">Online Certification Authority</p>
+                    <p class="year">2023</p>
+                </div>
+
+                <div class="qualifications-list">
+                    <div class="qualification-item">
+                        <h3>Master's of Technology in Computer Science</h3>
+                        <p class="institution">Indian Institute of Technology, Delhi</p>
+                        <p class="year">2021 - 2022</p>
+                    </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="section-title">Skills</div>
+            <div class="skills-container">
+        
+                <!-- Programming Languages -->
+                <div class="skill-group">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item"><i class="fab fa-js-square skill-icon" style="color:#f7df1e;"></i><span>JavaScript</span></div>
+                        <div class="skill-item"><i class="fab fa-python skill-icon" style="color:#3776ab;"></i><span>Python</span></div>
+                        <div class="skill-item"><i class="fab fa-java skill-icon" style="color:#f89820;"></i><span>Java</span></div>
+                        <div class="skill-item"><i class="fas fa-code skill-icon" style="color:#00599c;"></i><span>C++</span></div>
+                    </div>
+                </div>
+        
+                <!-- Specializations -->
+                <div class="skill-group">
+                    <h3>Specializations</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item"><i class="fas fa-robot skill-icon" style="color:#ff6f61;"></i><span>Machine Learning</span></div>
+                        <div class="skill-item"><i class="fas fa-brain skill-icon" style="color:#9b59b6;"></i><span>Deep Learning</span></div>
+                        <div class="skill-item"><i class="fab fa-figma skill-icon" style="color:#a259ff;"></i><span>Figma</span></div>
+                        <div class="skill-item"><i class="fas fa-pencil-ruler skill-icon" style="color:#1abc9c;"></i><span>UI/UX Design</span></div>
+                        <div class="skill-item"><i class="fas fa-plug skill-icon" style="color:#f39c12;"></i><span>API Integration</span></div>
+                        <div class="skill-item"><i class="fas fa-sitemap skill-icon" style="color:#3498db;"></i><span>Agile Development</span></div>
+                    </div>
+                </div>
+        
+                <!-- Tools & Technologies -->
+                <div class="skill-group">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item"><i class="fab fa-git-alt skill-icon" style="color:#f1502f;"></i><span>Git</span></div>
+                        <div class="skill-item"><i class="fab fa-docker skill-icon" style="color:#0db7ed;"></i><span>Docker</span></div>
+                        <div class="skill-item"><i class="fab fa-aws skill-icon" style="color:#ff9900;"></i><span>AWS</span></div>
+                        <div class="skill-item"><i class="fas fa-code skill-icon" style="color:#007acc;"></i><span>VS Code</span></div>
+                    </div>
+                </div>
+        
+                <!-- Frameworks & Libraries -->
+                <div class="skill-group">
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item"><i class="fab fa-react skill-icon" style="color:#61dafb;"></i><span>React</span></div>
+                        <div class="skill-item"><i class="fab fa-node-js skill-icon" style="color:#3c873a;"></i><span>Node.js</span></div>
+                        <div class="skill-item"><i class="fas fa-server skill-icon" style="color:#808080;"></i><span>Express.js</span></div>
+                        <div class="skill-item"><i class="fas fa-paint-brush skill-icon" style="color:#38b2ac;"></i><span>TailwindCSS</span></div>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+        
+        <section id="projects" class="projects">
+            <div class="section-title">Projects</div>
+            <div class="projects-grid">
+    
+                <!-- SmartDoc AI -->
+                <div class="project-card" onclick="openModal('project1')">
+                    <img src="project2.jpg" alt="SmartDoc AI">
+                    <h3>SmartDoc AI</h3>
+                    <p class="project-description">
+                        An AI-powered document summarization tool using transformer models (BERT/GPT). Converts long academic or legal documents into concise summaries.
+                    </p>
+                </div>
+    
+                <!-- CodeCollab -->
+                <div class="project-card" onclick="openModal('project2')">
+                    <img src="project1.jpg" alt="CodeCollab">
+                    <h3>CodeCollab</h3>
+                    <p class="project-description">
+                        A real-time collaborative coding platform built with React, Node.js, and WebSockets. Supports code sharing, syntax highlighting, and live chat.
+                    </p>
+                </div>
+    
+                <!-- EcoCart E-commerce -->
+                <div class="project-card" onclick="openModal('project3')">
+                    <img src="project3.jpg" alt="EcoCart">
+                    <h3>EcoCart</h3>
+                    <p class="project-description">
+                        A sustainable e-commerce platform with integrated carbon tracking, payment gateway, and responsive UI using TailwindCSS and Express.js.
+                    </p>
+                </div>
+    
+            </div>
+        </section>
+    
+        
+        <section id="contact" class="contact">
+            <div class="section-title">Contact Me</div>
+            <div class="contact-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="button primary-button">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Connect With Me</h3>
+                    <p><strong>Email:</strong> harshmittaluim@gmail.com</p>
+                    <p><strong>Phone:</strong> +91-8826307694</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/harsh-mittal-0ba606349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://github.com/harshmittal31" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                    <a href="resume.pdf" class="button secondary-button download-resume" target="_blank"><i class="fas fa-download"></i> Download Resume</a>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Harsh Mittal. All rights reserved.</p>
+    </footer>
+
+     <!-- Modals -->
+     <div id="project1-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('project1')">&times;</span>
+            <h2>SmartDoc AI</h2>
+            <p>
+                Developed during my internship at OpenAI, SmartDoc uses fine-tuned transformer models to generate readable summaries of technical and legal texts. It supports multiple languages and integrates with cloud storage APIs for easy document uploads. Deployed using Docker and AWS Lambda for scalability.
+            </p>
+        </div>
+    </div>
+
+    <div id="project2-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('project2')">&times;</span>
+            <h2>CodeCollab</h2>
+            <p>
+                A browser-based collaborative IDE inspired by VS Code Live Share. It supports JavaScript and Python editing, file sharing, and real-time chat using Socket.io. Built with React and Node.js, and deployed on Vercel.
+            </p>
+        </div>
+    </div>
+
+    <div id="project3-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('project3')">&times;</span>
+            <h2>EcoCart</h2>
+            <p>
+                EcoCart is a green e-commerce prototype that calculates the carbon footprint of each order. Features a modern, responsive UI built with TailwindCSS, and backend services using Express.js and MongoDB. Integrated Stripe for payments and implemented authentication with JWT.
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
